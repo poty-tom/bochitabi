@@ -1,13 +1,10 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/poty-tom/bochitabi/api"
+)
 
 func main() {
-	r := gin.Default()
-	r.GET("/health_check", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "hello",
-		})
-	})
+	r := api.NewRouter()
 	r.Run()
 }
