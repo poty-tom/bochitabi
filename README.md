@@ -1,3 +1,7 @@
+`organization`に移動したためこちらのリポジトリは廃止
+https://github.com/bochitabi-org/bochitabi
+
+
 # 一人でたびにでるもんアプリ
 一人旅行向けアプリ。一人は寂しくない。楽しい。；；
 
